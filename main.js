@@ -32,9 +32,9 @@ let t6 = ("Su nota es:"+ notas + ", y esta en el rango de 0 puntos con la letra 
     else if (notas >= 60 && notas <= 69){
       console.log(t4);
     }
-    else if (notas <= 68 && notas >=1 ){
+    else if (notas <60){
       console.log(t5);
     }
-    else if (notas <=0){
+    else if (notas =0){
       console.log(t6);
     }
